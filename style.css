@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: blueviolet;
+}
+.navlogo{
+    padding-left:  30px;
+    width: 40%;
+}
+.navtitle{
+    padding-left: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.slideshow{
+    padding-bottom: 30px;
+    width: 20%;
+    height: 40%;
+}
+.imgabout{
+    padding: 50px;
+    width: 60%;
+    height: 35%;
+}
+.aboutdesc{
+    font-size: 24px;
+    color: black;
+    padding: 1rem 3rem;
+
+}
+.about{
+    background-color: aliceblue;
+}
+.aboutdesc{
+    
+}
+.counting{
+    width: 100%;
+    padding: 2rem 5%;
+    margin: 1rem 0;
+    min-height: 15rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: center;
+    flex-wrap: center;
+    gap: 3rem;
+    background: -webkit-linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("img/img.png");
+    background: linear-gradient(rgba(0,0,0,0,4),rgba(0,0,0,0,4)),url("img/img.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.counting .box{
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 25rem;
+    flex: 1 1 25rem;
+    text-align: center;
+    padding: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-order: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+}
+.counting .box .count{
+    color: rgb(255, 238, 0);
+    font-size: 5rem;
+    font-weight: 500;
+    padding-bottom: 0,5rem;
+}
+.counting .box i{
+    color: rgb(255, 217, 0);
+    font-size: 6rem;
+    font-weight: 6rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+.footer{
+    background-color: black;
+    padding: 2rem 5%;
+    color: white;
+}
+.footer ul{
+    list-style: none;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    color: blue;
+}
+.jdsub{
+    text-align: center;
+    text-shadow: 1px 1px #ccc;
+}
+.img-menu{
+    height: 230px;
+    overflow: hidden;
+}
+
+.img-menu img{
+    transition:  transform.55 ease;
+}
+
+.img-menu:hover img{
+    transform: scale(1,5);
+}
